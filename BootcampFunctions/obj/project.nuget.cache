@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "L72NrDnv4wKmNMQqsmtAWt7H9TbDFfe12cResnK7LFCaoRmzjWDdlBpM80ar0uvQPaBHG8CPI1eiAT0C7pAiog==",
+  "dgSpecHash": "Cmj4YKvOgRsIp7cy5wafiWWNkHDNOpbRvCkxEY4muqLSvoDTQOCrzRffbtqI/mBUPBFYu7I4RUz3ohZQvZsldQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\pilla\\Desktop\\UnitTestYourBootcampInCSharp\\BootcampFunctions\\BootcampFunctions.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\pilla\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }
