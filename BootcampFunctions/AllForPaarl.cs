@@ -5,7 +5,7 @@ namespace BootcampFunctions
 {
     public class AllForPaarl
     {
- public static string AllPaarl(string reg)
+ public static string AllPaarl(string reg,int pos)
         {
             
            ArrayList newList = new ArrayList();
@@ -22,9 +22,7 @@ namespace BootcampFunctions
                 }
             }
 
-            Console.WriteLine(newList[0].ToString());
-            Console.ReadKey();
-            return newList.ToString();
+            return newList[pos].ToString();
     }
 
     }

@@ -7,7 +7,7 @@ namespace BootcampFunctions
         public static int Yearsago(int past)
         { 
             int current= int.Parse(DateTime.Now.ToString("yyyy"));
-            return (past-current);
+            return (current-past);
 
         }
     }
