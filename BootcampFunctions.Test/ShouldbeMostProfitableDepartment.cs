@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using Newtonsoft.Json;
 namespace BootcampFunctions.Test
 {
+    //git token "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"
     public class ShouldbeMostProfitableDepartment
     {
         [Fact]
@@ -29,9 +30,9 @@ namespace BootcampFunctions.Test
             };
             MostProfitableDepartment sut = new MostProfitableDepartment();
             var x = sut.MostProfit(obj);
-            var actual= JsonConvert.SerializeObject(x);
+            
             var expected = "hardware";
-            Assert.Equal(expected,actual);
+            Assert.Equal(expected,x);
 
 
 

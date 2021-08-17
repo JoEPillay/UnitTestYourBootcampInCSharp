@@ -30,8 +30,8 @@ namespace BootcampFunctions
      
      
    }
-  var x= count;
-  
+  var x= count.ToString("0.00");
+
   return ($"R{x}");
 		  
 		}
