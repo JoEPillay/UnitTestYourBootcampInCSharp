@@ -4,10 +4,10 @@ using System.Collections.Generic;
 using Newtonsoft.Json;
 namespace BootcampFunctions.Test
 {
-    public class UnitTest1
+    public class ShouldbeMostProfitableDepartment
     {
         [Fact]
-        public void Test1()
+        public void ShouldreturnMostProfitableDepartment()
         {
             var obj =new List<Departments>()
             {
@@ -38,7 +38,7 @@ namespace BootcampFunctions.Test
 
         }
            [Fact]
-        public void Test2()
+        public void ShouldreturnMostProfitableDepartmentAgain()
         {
             var obj =new List<Departments>()
             {
