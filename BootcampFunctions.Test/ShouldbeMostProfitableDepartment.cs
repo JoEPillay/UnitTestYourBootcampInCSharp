@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using Newtonsoft.Json;
 namespace BootcampFunctions.Test
 {
-    //git token "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"
+    //git token ""
     public class ShouldbeMostProfitableDepartment
     {
         [Fact]
